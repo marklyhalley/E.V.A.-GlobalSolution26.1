@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HomeTab from './components/HomeTab';
 import DashboardTab from './components/DashboardTab';

@@ -1,6 +1,6 @@
 import { FlaskConical, Network, Sprout, Shield } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router';
+import { useSearchParams } from 'react-router-dom';
 
 export default function FasesTab() {
   const [searchParams] = useSearchParams();

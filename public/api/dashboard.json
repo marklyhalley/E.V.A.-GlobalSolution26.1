@@ -1,0 +1,33 @@
+{
+  "missao": {
+    "inicio": "2026-05-25T00:00:00",
+    "nome": "Missão E.V.A. — Marte 2031",
+    "status": "ativo"
+  },
+  "sensores": {
+    "ativos": 24,
+    "total": 24,
+    "ultimoUpdate": "12:47:32"
+  },
+  "metricas": {
+    "ph": 7.1,
+    "umidade": 68,
+    "radiacao": 64,
+    "toxicidade": 17,
+    "bioeletrica": 63
+  },
+  "fases": [
+    { "id": 1, "numero": "01", "titulo": "Desintoxicação",          "progresso": 100, "tempo": "0–5 dias",   "status": "Concluído", "statusColor": "#1D9E75", "cor": "#993C1D", "faseIndex": 0 },
+    { "id": 2, "numero": "02", "titulo": "Estruturação do Solo",    "progresso": 68,  "tempo": "5–15 dias",  "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 1 },
+    { "id": 3, "numero": "03", "titulo": "Nutrição e Regeneração",  "progresso": 22,  "tempo": "15–30 dias", "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 2 },
+    { "id": 4, "numero": "04", "titulo": "Proteção e Estabilidade", "progresso": 0,   "tempo": "30+ dias",   "status": "Planejado", "statusColor": "#FAC775", "cor": "#533AB7", "faseIndex": 3 }
+  ],
+  "historico": [
+    { "time": "00:00", "ph": 6.2, "umidade": 45, "radiacao": 82, "toxicidade": 35, "bioeletrica": 28 },
+    { "time": "04:00", "ph": 6.4, "umidade": 52, "radiacao": 78, "toxicidade": 32, "bioeletrica": 34 },
+    { "time": "08:00", "ph": 6.6, "umidade": 58, "radiacao": 75, "toxicidade": 28, "bioeletrica": 42 },
+    { "time": "12:00", "ph": 6.8, "umidade": 61, "radiacao": 71, "toxicidade": 24, "bioeletrica": 51 },
+    { "time": "16:00", "ph": 7.0, "umidade": 65, "radiacao": 68, "toxicidade": 20, "bioeletrica": 58 },
+    { "time": "20:00", "ph": 7.1, "umidade": 68, "radiacao": 64, "toxicidade": 17, "bioeletrica": 63 }
+  ]
+}

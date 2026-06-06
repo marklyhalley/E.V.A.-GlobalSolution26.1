@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import { Sprout } from 'lucide-react';
 
 export default function Header() {

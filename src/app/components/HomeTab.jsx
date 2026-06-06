@@ -1,6 +1,6 @@
 import { AlertTriangle, Globe, Radiation, Sprout, Cpu, Wifi, ArrowRight, Star } from 'lucide-react';
 import { useRef, useCallback } from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const STARS = Array.from({ length: 120 }, (_, i) => ({
   id: i,
