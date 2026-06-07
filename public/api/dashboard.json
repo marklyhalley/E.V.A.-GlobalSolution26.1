@@ -17,10 +17,11 @@
     "bioeletrica": 63
   },
   "fases": [
-    { "id": 1, "numero": "01", "titulo": "Desintoxicação",          "progresso": 100, "tempo": "0–5 dias",   "status": "Concluído", "statusColor": "#1D9E75", "cor": "#993C1D", "faseIndex": 0 },
-    { "id": 2, "numero": "02", "titulo": "Estruturação do Solo",    "progresso": 68,  "tempo": "5–15 dias",  "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 1 },
-    { "id": 3, "numero": "03", "titulo": "Nutrição e Regeneração",  "progresso": 22,  "tempo": "15–30 dias", "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 2 },
-    { "id": 4, "numero": "04", "titulo": "Proteção e Estabilidade", "progresso": 0,   "tempo": "30+ dias",   "status": "Planejado", "statusColor": "#FAC775", "cor": "#533AB7", "faseIndex": 3 }
+    { "id": 0, "numero": "00", "titulo": "Transporte da Carga Biológica", "progresso": 100, "tempo": "Pré-Missão", "status": "Concluído", "statusColor": "#FAC775", "cor": "#B87D2A", "faseIndex": 0 },
+    { "id": 1, "numero": "01", "titulo": "Desintoxicação",                "progresso": 100, "tempo": "0–5 dias",   "status": "Concluído", "statusColor": "#1D9E75", "cor": "#993C1D", "faseIndex": 1 },
+    { "id": 2, "numero": "02", "titulo": "Estruturação do Solo",          "progresso": 68,  "tempo": "5–15 dias",  "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 2 },
+    { "id": 3, "numero": "03", "titulo": "Nutrição e Regeneração",        "progresso": 22,  "tempo": "15–30 dias", "status": "Ativo",     "statusColor": "#1D9E75", "cor": "#1D9E75", "faseIndex": 3 },
+    { "id": 4, "numero": "04", "titulo": "Proteção e Estabilidade",       "progresso": 0,   "tempo": "30+ dias",   "status": "Planejado", "statusColor": "#FAC775", "cor": "#533AB7", "faseIndex": 4 }
   ],
   "historico": [
     { "time": "00:00", "ph": 6.2, "umidade": 45, "radiacao": 82, "toxicidade": 35, "bioeletrica": 28 },

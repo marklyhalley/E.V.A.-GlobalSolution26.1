@@ -26,11 +26,11 @@ export default function SobreTab() {
   ];
 
   const equipe = [
-    { nome: 'Gustavo Almeida Ferreira', cargo: 'RM 566980' },
-    { nome: 'Lucas de Oliveira Miranda Caetano', cargo: 'RM 568036' },
-    { nome: 'Marco Túlio Longo Conte', cargo: 'RM 568373' },
-    { nome: 'Sofia Souza Rodrigues', cargo: 'RM 566708' },
-    { nome: 'Camile Vitória Silva', cargo: 'RM 566649' },
+    { nome: 'Gustavo Almeida Ferreira',          cargo: 'RM 566980', foto: 'gustavo.jpeg' },
+    { nome: 'Lucas de Oliveira Miranda Caetano', cargo: 'RM 568036', foto: 'lucas.jpeg'   },
+    { nome: 'Marco Túlio Longo Conte',           cargo: 'RM 568373', foto: 'marco.jpeg'   },
+    { nome: 'Sofia Souza Rodrigues',             cargo: 'RM 566708', foto: 'sofia.jpeg'   },
+    { nome: 'Camile Vitória Silva',              cargo: 'RM 566649', foto: 'camile.jpeg'  },
   ];
 
   return (
@@ -103,9 +103,11 @@ export default function SobreTab() {
               className="bg-[#0f1422] border border-white/10 rounded-xl p-6 hover:border-[#1D9E75]/50 transition-all"
             >
               <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#1D9E75]/20 to-[#533AB7]/20 flex items-center justify-center border border-white/10">
-                  <Users className="w-8 h-8 text-[#E1F5EE]" />
-                </div>
+                <img
+                  src={`/images/equipe/${membro.foto}`}
+                  alt={`Foto de ${membro.nome}`}
+                  className="w-16 h-16 rounded-full object-cover object-top border border-white/10 flex-shrink-0"
+                />
                 <div className="flex-1">
                   <h4 className="text-lg font-bold text-white">{membro.nome}</h4>
                   <p className="text-sm text-[#1D9E75]">{membro.cargo}</p>
