@@ -1,0 +1,26 @@
+====================================================
+  E.V.A. — Ecosystem Vitality Assistant
+  Global Solution 2026.1 — Web Development | FIAP
+====================================================
+
+INTEGRANTES DO GRUPO
+----------------------------------------------------
+
+Nome: Gustavo Almeida Ferreira
+RM:   566980
+
+Nome: Lucas de Oliveira Miranda Caetano
+RM:   568036
+
+Nome: Marco Túlio Longo Conte
+RM:   568373
+
+Nome: Sofia Souza Rodrigues
+RM:   566708
+
+Nome: Camile Vitória Silva
+RM:   566649
+
+----------------------------------------------------
+Repositório: https://github.com/marklyhalley/E.V.A.-GlobalSolution26.1
+====================================================
