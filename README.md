@@ -149,7 +149,7 @@ E.V.A.-GlobalSolution26.1/
 | | |
 |-|-|
 | 🗂 **Repositório** | https://github.com/marklyhalley/E.V.A.-GlobalSolution26.1 |
-| 🌐 **Deploy** | *(a preencher após publicação)* |
+| 🌐 **Deploy** | https://e-v-a-global-solution26-1.vercel.app/ |
 
 ---
 
